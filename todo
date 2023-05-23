@@ -1,0 +1,40 @@
+zvuky:
+	-> glock: strelba, prebijeni (zasobnik ven, zasobnik dovnitr, zaver)
+	-> baterie: zvuk tlacitka
+	-> charakter: chuze, beh, skok, dopad
+	
+first person controller
+	-> vsechno zprovoznit
+	-> prepinani zbrani
+	-> jednoduchy invetar (nahled na nekolik i temu a vybirani)
+	-> kamera shake
+	-> muzzle flash (tutorail)
+
+ovladani hrace:
+	-> w, a, s, d
+	-> skok -> space
+	-> plizeni -> ctr
+	-> beh -> shift
+	-> strelba -> leve tlacitko
+	-> prechod do mireni: prave tlacitko
+	-> prebit -> R
+	-> zmena zbrane -> (tlacitko 1, 2 , 3) [nic, baterka, zbran]
+	
+	-> dva bary (v leve na zbrane, v pravo na nalezene predmety)
+	-> nastroj nic (ruka) ->  mozna vybirani a aplikovani predmetu
+	-> vyber item z invanare koleckem
+	-> zobrazit info o predmetu -> klavasa I
+	-> sebrat predmet rukou -> leve tlacitko
+	-> aplikovat predmet -> prave tlacitko
+	
+system predmetu:
+	-> max 9 (pri naplneni vyhodi aktualne vybrany)
+	-> sebrani (najde nejblizsi predmet)
+		-> klice
+		-> nfc karty
+		-> klavesnice
+		-> pojistky
+		-> ...
+	-> aplikovani (podle v vzdalenosti)
+		-> prijimac vyzaduje predmet s urcitim ID, pokud odpovida dojde k odebrani predmetu a nastaveni stavu aktivovano + vyvola nastavene eventy
+	
